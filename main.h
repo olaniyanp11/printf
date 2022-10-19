@@ -13,7 +13,6 @@
 #define FIELD_BUF_SIZE 50
 
 #define NULL_STRING "(null)"
-
 #define PARAMS_INIT {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 
 #define CONVERT_LOWERCASE	1
@@ -61,6 +60,7 @@ typedef struct parameters
  * @specifier: format token
  * @f: The function associated
  */
+
 typedef struct specifier
 {
 	char *specifier;
